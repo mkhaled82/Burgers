@@ -8,10 +8,9 @@ var burger = {
 	},
 
 	update: function(id,cb){
-		orm.update('burgers',id,cb, function(res){
-			cb(res);
-		});
+		orm.update('burgers',id,cb);
 	},
+	
 
 
 

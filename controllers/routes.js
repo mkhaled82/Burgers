@@ -18,14 +18,6 @@ router.put('/burgers/update',function(req,res){
 	});
 });
 
-// router.put('/api/burgers/', function(req,res){
-// 	burger.create(req.body.burger_name, function(result){
-// 		console.log(result);
-// 		res.redirect('/');
-// 	})
-// })
-
-
 
 
 

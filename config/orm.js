@@ -29,6 +29,7 @@ var orm = {
 
 
 
+
   	create: function(tableInput,val,cb){
   		var queryString = 'INSERT INTO ' + tableInput +" (burger_name) VALUES('"+val+"');";
 
